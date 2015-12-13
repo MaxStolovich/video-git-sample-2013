@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using System;
 
 namespace HelloWorld
 {
@@ -9,6 +10,7 @@ namespace HelloWorld
         {
             InitializeComponent();
             ClickMeButton.Click += (s, e) => MessageBox.Show("Hello World!");
+            MessageBox.Show("Helllo!!!!");
         }
     }
 }
